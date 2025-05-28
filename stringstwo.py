@@ -32,6 +32,16 @@ print(ch)
 
 # Slicing
 # accessing parts of a string
-print(str[2:5])
-print(str[3:])
+print(str[2:5]) # ending number index not print or included
+print(str[3:]) # from index 3 to len(str)
 print(str[:5])
+# Negative Index is not a part of other languages . it is a special feature of python language 
+strf="APPLE"
+print(strf[-5:])
+print(strf[-3:-1])
+
+# string ends with function
+strb="hello this is a big string"
+print(strb.endswith("ing"))
+print(strb.endswith("in"))
+print(strb.capitalize())
