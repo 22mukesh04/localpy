@@ -45,3 +45,6 @@ strb="hello this is a big string"
 print(strb.endswith("ing"))
 print(strb.endswith("in"))
 print(strb.capitalize())
+# practice problem 1 input any name and tell its length
+name1=input("Enter your name " )
+print("Length of entered name is : ",len(name1))                
